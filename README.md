@@ -1,21 +1,30 @@
 # NetHackAssistant
-A simple & ugly nethack Save/Load automation script(cheater)
+A simple nethack Save/Load automation script(cheater)
 
 I know it's cheating, but you are not able to beat nethack even with those cheating tools, are you?
 
 ### Usage
 
 Run the python script as normal user, and enter commands to operate.
+You may want to follow the following playing procedure: 
 
-`R` to run the nethack game; 
+0. Run the script, and see the prompt nha>;
 
-`s` to save the game progress;
+1. `R` to run the nethack game; 
 
-`ls` to list all save files;
+(played for a while, want to save the progress, `Sy` in game to quit)
 
-`a` to apply(load) a saved game;
+2. `s` to save the game progress, enter a description if you want to;
 
-`R` to run the nethack game again. 
+3. `R` to continue the game;
+
+(died, quit game, back to prompt)
+
+4. `ls` to list all save files;
+
+5. `a` to apply(load) a saved game, enter the number ID shown in results of `ls`;
+
+6. goto 1. 
 
 Read the script itself for detailed help.
 
